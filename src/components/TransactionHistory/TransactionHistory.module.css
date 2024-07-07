@@ -1,0 +1,32 @@
+.table {
+    width: 742px;
+    margin: 0 auto;
+    border: 2px solid #252525;
+    border-spacing: 0;
+    text-align: center;
+  }
+
+.head {
+   
+    background-color: rgb(71, 66, 66);
+    color: white;
+    
+}
+
+td{
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
+
+tr:nth-child(2n) {
+    background-color: #f0f0f0;
+}
+
+.start{
+    padding-left: 80px;
+    text-align: left;
+    text-transform: capitalize;
+}

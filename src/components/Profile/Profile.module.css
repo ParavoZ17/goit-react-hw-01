@@ -1,0 +1,52 @@
+.container {
+   width: 400px;
+    margin: 0 auto;
+    text-align: center;
+     border: 2px solid black;
+     border-radius: 10px;
+     margin-bottom: 30px;
+}
+.profile {
+padding: 30px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+} 
+
+.location {
+    color: gray;
+    padding: 5px;  
+}  
+
+.ul {
+    display: flex;
+    background-color: burlywood; 
+    border-top: 2px solid gray;
+}
+
+.item {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid gray;
+    border-bottom: none;
+    padding: 30px;
+}
+.item:first-child {
+border-left: none;
+}
+
+.accent {
+    font-weight: 600;
+}

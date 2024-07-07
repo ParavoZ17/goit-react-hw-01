@@ -1,0 +1,15 @@
+.item {
+   width: 100px;
+   border: black solid 2px;
+   text-align: center;
+   padding: 20px;
+   border-radius: 12px;
+}
+
+.Online {
+   color: green;
+}
+
+.Offline {
+color: red;
+}
